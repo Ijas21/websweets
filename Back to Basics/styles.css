@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(243, 243, 243);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	font-family: "Source Sans Pro", sans-serif;
+	padding-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #353535;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li a:hover {
+	background-color: rgb(10, 10, 10);
+}
+
+img {
+	width: 10%;
+	border-radius: 50%;
+	align-self: center;
+}
+
+address {
+	padding-top: 30px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 15px;
+}
+
+#navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+html {
+	/*This adds some padding when using bookmarks to scroll to parts
+	of the webpage using the navbar */
+	scroll-padding-top: 50px;
+}
