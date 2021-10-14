@@ -66,6 +66,10 @@ nav {
 	animation: nav-load 1s;
 }
 
+.nav-links .current {
+	color: #f67e7d;
+}
+
 .logo {
 	text-transform: uppercase;
 	letter-spacing: 5px;
