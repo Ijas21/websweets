@@ -9,6 +9,18 @@ body {
 	margin-right: 10%;
 }
 
+h1 {
+	font-size: 5vh;
+}
+
+h2 {
+	font-size: 3vh;
+}
+
+h3 {
+	font-size: 3vh;
+}
+
 p,
 h2,
 h1 {
@@ -31,6 +43,12 @@ li {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
