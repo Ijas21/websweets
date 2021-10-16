@@ -14,7 +14,8 @@ h1 {
 }
 
 h2 {
-	font-size: 3vh;
+	font-size: 4vh;
+	font-family: "Poppins", sans-serif;
 }
 
 h3 {
@@ -22,13 +23,13 @@ h3 {
 }
 
 p,
-h2,
 h1 {
 	color: rgb(230, 230, 230);
 	font-family: "Poppins", sans-serif;
 }
 h3,
-h4 {
+h4,
+h2 {
 	color: #f67e7d;
 	font-family: "Poppins", sans-serif;
 }
@@ -42,12 +43,6 @@ li {
 
 .wrapper {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.wrapper {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -56,6 +51,20 @@ li {
 	width: 100%;
 	margin: 0px;
 	/* border: 3px solid #f67e7d; */
+}
+
+.flexboxItem2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.servicesImages {
+	width: 10vw;
+	display: flex;
 }
 
 .intro {
