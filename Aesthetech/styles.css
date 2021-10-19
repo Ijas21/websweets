@@ -41,6 +41,21 @@ li {
 	text-align: center;
 }
 
+.button {
+	color: rgb(230, 230, 230);
+	font-family: "Poppins", sans-serif;
+	text-decoration: none;
+	background-color: #f67d7db9;
+	padding: 14px 25px;
+	border-radius: 15px;
+	transition: 00.3s;
+}
+
+.button:hover {
+	background-color: #f67e7d;
+	transition: 00.3s;
+}
+
 .wrapper {
 	display: flex;
 	justify-content: center;
@@ -69,6 +84,8 @@ li {
 
 .intro {
 	animation: left-load 1s;
+	display: flex;
+	flex-direction: column;
 }
 
 #ijasImage {
