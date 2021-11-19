@@ -78,6 +78,7 @@ li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 15vh;
 }
 
 .gridContainer {
@@ -90,6 +91,11 @@ li {
 	margin: 0px;
 
 	/* border: 3px solid #f67e7d; */
+}
+
+.aboutWrapper {
+	padding-left: 10vw;
+	padding-right: 10vw;
 }
 
 .flexboxItem2 {
@@ -211,6 +217,11 @@ nav {
 	.skillsWrapper {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.aboutWrapper {
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	.nav-links a {
