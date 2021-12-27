@@ -107,6 +107,15 @@ li {
 	margin: 10px;
 }
 
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 2vh;
+}
+
 .servicesImages {
 	width: 10vw;
 	display: flex;
@@ -116,6 +125,7 @@ li {
 	animation: left-load 1s;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 }
 
 #ijasImage {
@@ -266,6 +276,9 @@ nav {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+	.buttonContainer {
+		align-items: center;
 	}
 }
 
